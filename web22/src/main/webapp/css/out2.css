@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* css에서의 주석(Ctrl+/) */
+body{
+	background: rgb(154, 237, 181); /* 배경색 지정 */
+	color: rgb(0, 64, 128); /* 글자색 */
+	font-size: 50px
+}
+
+hr{
+	width: 500px;
+	height: 100px;
+	background: rgb(255, 255, 128);
+}

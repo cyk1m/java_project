@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+			<!-- → css 사용법 1. css연결하기. rel(ation) -->
+		<link rel="stylesheet" href="css/out.css"> <!-- head 안에 넣는다 --> 
+			<!-- css/out.css: css폴더 아래 out.css가 있다. (경로 조심!) -->
+			<!-- 2. css말고 추가로 설정하고 싶을 때 style로 -->
+		<style type="text/css">
+			h3{
+				width: 300px;
+				height: 50px;
+				background: lime;
+			}
+			
+			p{
+				width: 800px;
+				height: 150px;
+				background: blue;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+	나는 글자야!!
+	<hr>
+	<h3>나는 제목이란다.</h3>
+	<!-- p태그는 문단. 한 줄 떨어뜨리는 효과 -->
+	<!-- 3. 인라인(in-line)방식: 본문에서 적용하고 싶은 라인에만 style 태그를 이용 -->
+	<p>나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..나는 내용..</p>
+	<p style="background: lime; color: red;">나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..나도 내용..</p>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판 글쓰기 화면</title>
+</head>
+<body>
+<h3>글 작성하기</h3>
+<hr color = "lime">
+
+<form action="insert2.jsp">
+제목 : <input name = "title" type = "text"> <br>
+글쓴이 : <input name = "author" type = "text"> <br>
+내용 : <textarea rows="10" cols="20" placeholder="내용을 입력하세요." name = "word"></textarea> <br>
+종류 : 
+	<!-- value에 한글 넣어도 되지만 영어로 쓰는게 더 좋다(DB로 이동시 깨질수있어서) -->
+	문의사항<input type="radio" value="문의사항" name = "kind"> 
+	답변<input type="radio" value="답변" name = "kind">
+	확인<input type="radio" value="확인" name = "kind"> <br>
+부서 :
+	<select name = "part">
+		<option value = "기획부">기획부
+		<option value = "총무부">총무부
+		<option value = "인사부">인사부
+	</select>
+	<br>
+날짜 : <input name = "date" type = "text"> <br>
+<button>작성 완료</button>
+</form>
+
+</body>
+</html>
